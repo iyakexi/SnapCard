@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		408BD4791CCE162A00A86EE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD4781CCE162A00A86EE8 /* AppDelegate.swift */; };
+		408BD47E1CCE162A00A86EE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408BD47C1CCE162A00A86EE8 /* Main.storyboard */; };
+		408BD4801CCE162A00A86EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408BD47F1CCE162A00A86EE8 /* Assets.xcassets */; };
+		408BD4831CCE162A00A86EE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408BD4811CCE162A00A86EE8 /* LaunchScreen.storyboard */; };
+		408BD48E1CCE162A00A86EE8 /* SnapCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD48D1CCE162A00A86EE8 /* SnapCardTests.swift */; };
+		408BD4991CCE162A00A86EE8 /* SnapCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD4981CCE162A00A86EE8 /* SnapCardUITests.swift */; };
+		408BD4A81CCE185100A86EE8 /* CardListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD4A71CCE185100A86EE8 /* CardListViewController.swift */; };
+		408BD4AA1CCE187C00A86EE8 /* CardListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD4A91CCE187C00A86EE8 /* CardListLayout.swift */; };
+		408BD4AC1CCE18BD00A86EE8 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408BD4AB1CCE18BD00A86EE8 /* CardCell.swift */; };
+		408BD4AE1CCE2CC700A86EE8 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 408BD4AD1CCE2CC700A86EE8 /* data.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		408BD48A1CCE162A00A86EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408BD46D1CCE162A00A86EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408BD4741CCE162A00A86EE8;
+			remoteInfo = SnapCard;
+		};
+		408BD4951CCE162A00A86EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 408BD46D1CCE162A00A86EE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 408BD4741CCE162A00A86EE8;
+			remoteInfo = SnapCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		408BD4751CCE162A00A86EE8 /* SnapCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		408BD4781CCE162A00A86EE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		408BD47D1CCE162A00A86EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		408BD47F1CCE162A00A86EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		408BD4821CCE162A00A86EE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		408BD4841CCE162A00A86EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408BD4891CCE162A00A86EE8 /* SnapCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408BD48D1CCE162A00A86EE8 /* SnapCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCardTests.swift; sourceTree = "<group>"; };
+		408BD48F1CCE162A00A86EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408BD4941CCE162A00A86EE8 /* SnapCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		408BD4981CCE162A00A86EE8 /* SnapCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCardUITests.swift; sourceTree = "<group>"; };
+		408BD49A1CCE162A00A86EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		408BD4A71CCE185100A86EE8 /* CardListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListViewController.swift; sourceTree = "<group>"; };
+		408BD4A91CCE187C00A86EE8 /* CardListLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardListLayout.swift; sourceTree = "<group>"; };
+		408BD4AB1CCE18BD00A86EE8 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		408BD4AD1CCE2CC700A86EE8 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		408BD4721CCE162A00A86EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4861CCE162A00A86EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4911CCE162A00A86EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		408BD46C1CCE162A00A86EE8 = {
+			isa = PBXGroup;
+			children = (
+				408BD4771CCE162A00A86EE8 /* SnapCard */,
+				408BD48C1CCE162A00A86EE8 /* SnapCardTests */,
+				408BD4971CCE162A00A86EE8 /* SnapCardUITests */,
+				408BD4761CCE162A00A86EE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		408BD4761CCE162A00A86EE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				408BD4751CCE162A00A86EE8 /* SnapCard.app */,
+				408BD4891CCE162A00A86EE8 /* SnapCardTests.xctest */,
+				408BD4941CCE162A00A86EE8 /* SnapCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		408BD4771CCE162A00A86EE8 /* SnapCard */ = {
+			isa = PBXGroup;
+			children = (
+				408BD4A61CCE167900A86EE8 /* Supporting Files */,
+				408BD4781CCE162A00A86EE8 /* AppDelegate.swift */,
+				408BD47C1CCE162A00A86EE8 /* Main.storyboard */,
+				408BD4A71CCE185100A86EE8 /* CardListViewController.swift */,
+				408BD4AD1CCE2CC700A86EE8 /* data.plist */,
+				408BD4A91CCE187C00A86EE8 /* CardListLayout.swift */,
+				408BD4AB1CCE18BD00A86EE8 /* CardCell.swift */,
+			);
+			path = SnapCard;
+			sourceTree = "<group>";
+		};
+		408BD48C1CCE162A00A86EE8 /* SnapCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				408BD48D1CCE162A00A86EE8 /* SnapCardTests.swift */,
+				408BD48F1CCE162A00A86EE8 /* Info.plist */,
+			);
+			path = SnapCardTests;
+			sourceTree = "<group>";
+		};
+		408BD4971CCE162A00A86EE8 /* SnapCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				408BD4981CCE162A00A86EE8 /* SnapCardUITests.swift */,
+				408BD49A1CCE162A00A86EE8 /* Info.plist */,
+			);
+			path = SnapCardUITests;
+			sourceTree = "<group>";
+		};
+		408BD4A61CCE167900A86EE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408BD47F1CCE162A00A86EE8 /* Assets.xcassets */,
+				408BD4811CCE162A00A86EE8 /* LaunchScreen.storyboard */,
+				408BD4841CCE162A00A86EE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		408BD4741CCE162A00A86EE8 /* SnapCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408BD49D1CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCard" */;
+			buildPhases = (
+				408BD4711CCE162A00A86EE8 /* Sources */,
+				408BD4721CCE162A00A86EE8 /* Frameworks */,
+				408BD4731CCE162A00A86EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapCard;
+			productName = SnapCard;
+			productReference = 408BD4751CCE162A00A86EE8 /* SnapCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		408BD4881CCE162A00A86EE8 /* SnapCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408BD4A01CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCardTests" */;
+			buildPhases = (
+				408BD4851CCE162A00A86EE8 /* Sources */,
+				408BD4861CCE162A00A86EE8 /* Frameworks */,
+				408BD4871CCE162A00A86EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408BD48B1CCE162A00A86EE8 /* PBXTargetDependency */,
+			);
+			name = SnapCardTests;
+			productName = SnapCardTests;
+			productReference = 408BD4891CCE162A00A86EE8 /* SnapCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		408BD4931CCE162A00A86EE8 /* SnapCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 408BD4A31CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCardUITests" */;
+			buildPhases = (
+				408BD4901CCE162A00A86EE8 /* Sources */,
+				408BD4911CCE162A00A86EE8 /* Frameworks */,
+				408BD4921CCE162A00A86EE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				408BD4961CCE162A00A86EE8 /* PBXTargetDependency */,
+			);
+			name = SnapCardUITests;
+			productName = SnapCardUITests;
+			productReference = 408BD4941CCE162A00A86EE8 /* SnapCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		408BD46D1CCE162A00A86EE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Qinyejun;
+				TargetAttributes = {
+					408BD4741CCE162A00A86EE8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					408BD4881CCE162A00A86EE8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 408BD4741CCE162A00A86EE8;
+					};
+					408BD4931CCE162A00A86EE8 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 408BD4741CCE162A00A86EE8;
+					};
+				};
+			};
+			buildConfigurationList = 408BD4701CCE162A00A86EE8 /* Build configuration list for PBXProject "SnapCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 408BD46C1CCE162A00A86EE8;
+			productRefGroup = 408BD4761CCE162A00A86EE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				408BD4741CCE162A00A86EE8 /* SnapCard */,
+				408BD4881CCE162A00A86EE8 /* SnapCardTests */,
+				408BD4931CCE162A00A86EE8 /* SnapCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		408BD4731CCE162A00A86EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408BD4831CCE162A00A86EE8 /* LaunchScreen.storyboard in Resources */,
+				408BD4801CCE162A00A86EE8 /* Assets.xcassets in Resources */,
+				408BD4AE1CCE2CC700A86EE8 /* data.plist in Resources */,
+				408BD47E1CCE162A00A86EE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4871CCE162A00A86EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4921CCE162A00A86EE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		408BD4711CCE162A00A86EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408BD4A81CCE185100A86EE8 /* CardListViewController.swift in Sources */,
+				408BD4791CCE162A00A86EE8 /* AppDelegate.swift in Sources */,
+				408BD4AA1CCE187C00A86EE8 /* CardListLayout.swift in Sources */,
+				408BD4AC1CCE18BD00A86EE8 /* CardCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4851CCE162A00A86EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408BD48E1CCE162A00A86EE8 /* SnapCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408BD4901CCE162A00A86EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408BD4991CCE162A00A86EE8 /* SnapCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		408BD48B1CCE162A00A86EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408BD4741CCE162A00A86EE8 /* SnapCard */;
+			targetProxy = 408BD48A1CCE162A00A86EE8 /* PBXContainerItemProxy */;
+		};
+		408BD4961CCE162A00A86EE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 408BD4741CCE162A00A86EE8 /* SnapCard */;
+			targetProxy = 408BD4951CCE162A00A86EE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		408BD47C1CCE162A00A86EE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408BD47D1CCE162A00A86EE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		408BD4811CCE162A00A86EE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				408BD4821CCE162A00A86EE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		408BD49B1CCE162A00A86EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		408BD49C1CCE162A00A86EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		408BD49E1CCE162A00A86EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		408BD49F1CCE162A00A86EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnapCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		408BD4A11CCE162A00A86EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapCard.app/SnapCard";
+			};
+			name = Debug;
+		};
+		408BD4A21CCE162A00A86EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnapCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapCard.app/SnapCard";
+			};
+			name = Release;
+		};
+		408BD4A41CCE162A00A86EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapCard;
+			};
+			name = Debug;
+		};
+		408BD4A51CCE162A00A86EE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnapCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinyejun.SnapCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnapCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		408BD4701CCE162A00A86EE8 /* Build configuration list for PBXProject "SnapCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408BD49B1CCE162A00A86EE8 /* Debug */,
+				408BD49C1CCE162A00A86EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		408BD49D1CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408BD49E1CCE162A00A86EE8 /* Debug */,
+				408BD49F1CCE162A00A86EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		408BD4A01CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408BD4A11CCE162A00A86EE8 /* Debug */,
+				408BD4A21CCE162A00A86EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		408BD4A31CCE162A00A86EE8 /* Build configuration list for PBXNativeTarget "SnapCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408BD4A41CCE162A00A86EE8 /* Debug */,
+				408BD4A51CCE162A00A86EE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 408BD46D1CCE162A00A86EE8 /* Project object */;
+}

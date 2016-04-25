@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Half Your Brain Stands Guard When Sleeping In A New Place</string>
+			<key>content</key>
+      <string>When you sleep in unfamiliar surroundings, only half your brain is getting a good night's rest.</string>
+		</dict>
+    <dict>
+      <key>title</key>
+      <string>Dark Patterns by the Boston Globe</string>
+      <key>content</key>
+      <string>After years of falling revenue, some newspapers have resorted to deception to boost their subscription numbers.</string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>Leaf - Machine Learning for Hackers</string>
+      <key>content</key>
+      <string>Leaf is a Machine Intelligence Framework engineered by hackers, not scientists. </string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>Sebastian Thrun Steps Down As Udacity's CEO</string>
+      <key>content</key>
+      <string>Udacity’s founder Sebastian Thrun is stepping down as chief executive officer, the company announced on Friday. Vishal Makhijani, the company’s chief operating officer, will be Udacity’s new CEO</string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>How Kalman Filters Work, Part 1</string>
+      <key>content</key>
+      <string>Let's suppose you've agreed to a rather odd travel program, where you're going to be suddenly transported to a randomly selected country, and your job is to figure out where you end up</string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>The Science of Making Friends</string>
+      <key>content</key>
+      <string>Our number of friends starts to decrease steadily in adulthood; there are ways to reverse the tide</string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>Patching up Web applications</string>
+      <key>content</key>
+      <string>New debugging method found 23 undetected security flaws in 50 popular Web applications</string>
+    </dict>
+    <dict>
+      <key>title</key>
+      <string>Secure OpenPGP Key Pair Synchronization via IMAP</string>
+      <key>content</key>
+      <string>This document describes a proposal for a lightweight, secure mechanism to distribute an OpenPGP key pair to multiple OpenPGP-enabled Mail User Agents using the Internet Message Access Protocol Version 4rev1</string>
+    </dict>
+	</array>
+</dict>
+</plist>
